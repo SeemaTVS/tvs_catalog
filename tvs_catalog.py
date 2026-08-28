@@ -45,12 +45,4 @@ inventory_catalog = {
         "torque": "13.85 Nm @ 7000 rpm",
         "mileage": "45 - 50 kmpl",
         "braking": "Single Disc (Front), Drum (Rear)",
-        "abs": "Single-Channel ABS",
-        "connectivity": "Yes (SmartXonnect)",
-        "bs_rating": "BS6 Phase 2",
-        "fuel_tank": "12 Litres",
-        "colors": ["Matte Black (Race Edition Graphics)"]
-    },
-    "Apache RTR 160 4V Disc": {
-        "category": "Motorcycle",
-        "image": "https://www.tvsmotor
+        "abs": "Single-Channel ABS
