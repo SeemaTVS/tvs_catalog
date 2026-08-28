@@ -53,4 +53,4 @@ inventory_catalog = {
     },
     "Apache RTR 160 4V Disc": {
         "category": "Motorcycle",
-        "image": "
+    "image": "
