@@ -323,7 +323,7 @@ search_query = st.sidebar.text_input("Search Model Name", "")
 
 # Filter the catalog
 filtered_catalog = {}
-for model_name, specs in inventory_catalog.items":
+for model_name, specs in inventory_catalog.items():
     if selected_category != "All Models" and specs["category"] != selected_category:
         continue
     if search_query.lower() not in model_name.lower():
@@ -346,7 +346,7 @@ with col1:
 
 with col2:
     st.subheader("Vehicle Specifications")
-    if selected_bike in inventory_catalog:
+    if 'selected_bike' in locals() and selected_bike in inventory_catalog:
         bike_data = inventory_catalog[selected_bike]
         
         st.markdown(f"### **{selected_bike}**")
