@@ -294,7 +294,7 @@ cols = st.columns(3)
 for index, vehicle in enumerate(filtered_inventory):
     col = cols[index % 3]
     with col:
-        st.image(vehicle["image"], use_column_width=True)
+        st.image(vehicle["image"], use_container_width=True)
         st.subheader(vehicle["model"])
         st.caption(f"Category: {vehicle['category']}")
         
